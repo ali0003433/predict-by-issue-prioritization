@@ -1,5 +1,5 @@
-# Predicting county-level Presidential returns 
-This project uses MIT's Election Lab county-level 2016 Presidential returns. 
+# XYZ  
+This project uses the Democracy Fund Voter Study Group 2016 data to identify XYZ.   
 
 #### -- Project Status: Active
 
@@ -23,9 +23,9 @@ This project uses MIT's Election Lab county-level 2016 Presidential returns.
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 
-2. Raw Data is kept [here]()
+2. Raw Data is kept [here](https://github.com/ali0003433/issues-voter-survey/blob/master/data/voter-survey-december16.csv)
     
-3. Data processing/transformation scripts can be found [here]()
+3. Data processing/transformation notebook can be found [here](https://github.com/ali0003433/issues-voter-survey/blob/master/ntbk-1.ipynb)
 
 4. Modeling code is kept [here]()
 
