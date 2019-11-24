@@ -13,7 +13,7 @@ def fill_nulls(df):
     Returns:
         df(Dataframe): Dataframe with null values as zeros. 
     '''
-    df = df.fillna(0)
+    df = df.fillna(8)
     return df
 
 
