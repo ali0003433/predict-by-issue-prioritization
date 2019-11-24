@@ -1,5 +1,5 @@
-# XYZ  
-This project uses the Democracy Fund Voter Study Group 2016 data to identify XYZ.   
+# Predicting a voter's 2016 Presidential candidate vote using issue prioritization
+This project uses voters' prioritization of political issues to predict their 2016 Presidential Campaign voting behavior. 
 
 #### -- Project Status: Active
 
