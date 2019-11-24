@@ -4,7 +4,7 @@ from predictor_api import make_prediction
 from flask import jsonify
 
 # initialize app 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 @app.route("/", methods=["POST"])
 def print_piped():
@@ -12,7 +12,7 @@ def print_piped():
         msg = request.form['mes']
         print(msg)
         x_input, predictions = make_prediction(str(msg))
-        flask.render_template('predictor.html',
+        flask.render_template('index.html',
                                 chat_in=x_input,
                                 prediction=predictions)
     return jsonify(predictions)
@@ -23,12 +23,12 @@ def predict():
     if (request.args):
         x_input, predictions = make_prediction(request.args['chat_in'])
         print(x_input)
-        return flask.render_template('home.html',
+        return flask.render_template('index.html',
                                      chat_in=x_input,
                                      prediction=predictions)
     else:
         x_input, predictions = make_prediction('')
-        return flask.render_template('home.html', 
+        return flask.render_template('index.html', 
                                      chat_in=x_input, 
                                      prediction=predictions)
 

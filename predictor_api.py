@@ -20,7 +20,7 @@ if __name__ == '__main__':
     chat_in = 'bob'
     pprint(chat_in)
 
-x_input, probs = make_prediction(chat_in)
-print(f'Input values: {x_input}')
-print('Output possibilities')
-print(probs)
+    x_input, probs = make_prediction(chat_in)
+    print(f'Input values: {x_input}')
+    print('Output possibilities')
+    print(probs)
