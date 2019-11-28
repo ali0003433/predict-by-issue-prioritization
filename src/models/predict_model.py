@@ -36,8 +36,8 @@ def avg_scorer(y, y_pred):
     cm = confusion_matrix(y, y_pred)
     conf_matrix = pd.DataFrame(cm, index=['Clinton','Trump', 'Nonvoter/Other'], 
                            columns=['Pred Clinton','Pred Trump', 'Pred Nonvoter/Other',])
-    print(cm)
-    print(conf_matrix, '\n')
+    #print(cm)
+    #print(conf_matrix, '\n')
     pred_correct_trump = cm[1][1]
     total_trump = sum(cm[1])
     perc_correct_trump = round(pred_correct_trump/total_trump, 3)*100 
@@ -54,7 +54,7 @@ def trump_scorer(y, y_pred):
     Returns:
         conf_matrix(Dataframe): Comparison of actual results versus predicted. 
     '''
-    cm = confusion_matrix(y_test, y_pred_test)
+    cm = confusion_matrix(y, y_pred)
     conf_matrix = pd.DataFrame(cm, index=['Clinton','Trump', 'Nonvoter/Other'], 
                            columns=['Pred Clinton','Pred Trump', 'Pred Nonvoter/Other',])
     print(cm)
