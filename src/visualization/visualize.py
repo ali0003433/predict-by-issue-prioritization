@@ -26,6 +26,7 @@ def plot_stacked(data, title):
     y_label = 'Weighted frequency'
     plt.xticks(ind, x_ticks)
     stacked_plot.set_ylabel(y_label)
+    stacked_plot.set(ylim=(0,2.1))
     return stacked_plot
 
 def count_res(df):
