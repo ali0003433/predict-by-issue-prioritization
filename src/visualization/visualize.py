@@ -5,11 +5,12 @@ import matplotlib.pyplot as plt
 
 
 def plot_bar(x, y, palette, title, xlabels): 
-    plt.figure(figsize=(8, 7))
+    plt.figure(figsize=(4, 3))
     bar_plot = sns.barplot(x=x, y=y,palette=palette)
     bar_plot.set_title(title)
     bar_plot.set_xticklabels(rotation=90, labels=xlabels)
     bar_plot.set_ylabel('Weighted frequency')
+    bar_plot.set(ylim=(0, 1.0))
     return bar_plot
 
 
