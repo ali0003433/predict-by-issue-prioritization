@@ -1,4 +1,4 @@
-# Predicting 2016 Presidential candidate vote using issue prioritization
+# Using an individual's prioritization of issues to predict their 2016 vote
 This project uses voters' prioritization of political issues to predict their 2016 Presidential Campaign voting behavior. 
 
 #### -- Project Status: Active
