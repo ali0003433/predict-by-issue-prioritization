@@ -30,7 +30,7 @@ This project uses voters' prioritization of political issues to predict their 20
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 
-2. Raw Data is kept [here](https://github.com/ali0003433/issues-voter-survey/blob/master/data/voter-survey-december16.csv)
+2. Raw Data is kept [here](https://github.com/ali0003433/issues-voter-survey/blob/master/data/raw/voter-survey-december16.csv)
     
 3. Notebooks: <br> 
   0 - Topic Selection <br>
@@ -39,8 +39,22 @@ This project uses voters' prioritization of political issues to predict their 20
   3 - Feature Engineering <br>
   4 - Model selection <br> 
   
+4. Modeling code is kept [here]()
+
+
+## Process 
+Cross-Industry Standard Process for Data Mining (CRISP-DM)
+- Business understanding
+- Data understanding
+- Data preparation
+- Modeling
+- Evaluation
+- Deployment
+
 ## Featured Deliverables
 * []()
 
 ## Contact
 * Alyssa Liguori, Alyssa.Liguori@protonmail.com 
+
+
