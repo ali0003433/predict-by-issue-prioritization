@@ -58,7 +58,7 @@ Cross-Industry Standard Process for Data Mining (CRISP-DM)
 
 ## Featured Deliverables
 * [Web app](https://make-prediction.herokuapp.com/)
-* [Slide deck](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/predict-vote-by-issue.pdf)
+* [Slide deck](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/pred-deck.pdf)
 
 ## Contact
 * Alyssa Liguori, Alyssa.Liguori@protonmail.com 
