@@ -35,12 +35,12 @@ Using data from the Democracy Fund's Voter Study Group 2016 Survey, this project
 
 3. Data dictionary and description of survey methodology can be found [here](https://github.com/ali0003433/predict-by-issue-prioritization/tree/master/references)<br>
     
-4. [Notebooks](https://github.com/ali0003433/predict-by-issue-prioritization/tree/master/notebooks): <br> 
-  0 - [Topic Selection](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/0-al-topic-selection.ipynb) <br>
-  1 - [Preprocessing](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/1-al-preprocessing.ipynb) <br>
-  2 - [Exploration](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/2-al-exploration.ipynb) <br> 
-  3 - [Feature Engineering](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/3-al-feature-engineering.ipynb) <br>
-  4 - [Model selection](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/4-al-model-selection.ipynb) <br> 
+4. Notebooks are kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/tree/master/notebooks): <br> 
+  0 - Topic Selection notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/0-al-topic-selection.ipynb) <br>
+  1 - Preprocessing notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/1-al-preprocessing.ipynb) <br>
+  2 - Exploration notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/2-al-exploration.ipynb) <br> 
+  3 - Feature Engineering notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/3-al-feature-engineering.ipynb) <br>
+  4 - Model selection notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/4-al-model-selection.ipynb) <br> 
  
  5. Source code is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/tree/master/src)
 
