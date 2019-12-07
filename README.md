@@ -40,25 +40,25 @@ I use likert scale ratings of issue importance to predict an individual's 2016 v
   0 - Topic Selection notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/0-al-topic-selection.ipynb) <br>
   1 - Preprocessing notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/1-al-preprocessing.ipynb) <br>
   2 - Exploration notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/2-al-exploration.ipynb) <br> 
-  3 - Model selection notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/3-al-model-selection.ipynb) <br> 
+  3 - Model selection notebook is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/notebooks/3-al-modeling.ipynb) <br> 
  
  5. Source code is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/tree/master/src)
 
  6. Repo for Flask web app can be found [here](https://github.com/ali0003433/pred-by-issue-app)
-  
+
+
+## Deliverables
+* [Web app](https://make-prediction.herokuapp.com/)
+* [Slide deck](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/pred-deck.pdf)
 
 ## Process 
 Cross-Industry Standard Process for Data Mining (CRISP-DM)
-- Business understanding
-- Data understanding
-- Data preparation
-- Modeling
-- Evaluation
-- Deployment
-
-## Featured Deliverables
-* [Web app](https://make-prediction.herokuapp.com/)
-* [Slide deck](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/pred-deck.pdf)
+- Business understanding: Research political campaign data and predictive election models. 
+- Data understanding: Explore and visualize Voter Study Group data. Read reports that have been written by others using this dataset. 
+- Data preparation: Eliminate unnecessary features then convert needed features to dummy variables. Use SMOTE to oversample minority class. 
+- Modeling: Compare Random Forest, Logistic Regression, Support Vector Machines, K-Nearest Neighbors. 
+- Evaluation: Create custom metric and evaluate multiple models with those metrics, iteratively. Use grid search and cross validation to tune parameters. 
+- Deployment: Deploy web app to heroku using Python, Flask, HTML/CSS. 
 
 ## Contact
 * Alyssa Liguori, Alyssa.Liguori@protonmail.com 
