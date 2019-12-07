@@ -44,7 +44,7 @@ Using data from the Democracy Fund's Voter Study Group 2016 Survey, this project
  
  5. Source code is kept [here](https://github.com/ali0003433/predict-by-issue-prioritization/tree/master/src)
 
- 6. Repo for Flask web app can be found [here](https://github.com/ali0003433/pres-pred)
+ 6. Repo for Flask web app can be found [here](https://github.com/ali0003433/pred-by-issue-app)
   
 
 ## Process 
