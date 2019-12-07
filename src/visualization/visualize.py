@@ -5,6 +5,18 @@ import matplotlib.pyplot as plt
 
 
 def plot_bar(x, y, palette, title, xlabels): 
+    '''
+    Create seaborn bar plot  
+
+    Args:
+        x ()
+        y ()
+        palette (list)
+        title (string)    
+        xlabels (list)
+    Returns:
+        plot object  
+    '''
     plt.figure(figsize=(10, 5))
     bar_plot = sns.barplot(x=x, y=y,palette=palette)
     bar_plot.set_title(title)
@@ -15,6 +27,15 @@ def plot_bar(x, y, palette, title, xlabels):
 
 
 def plot_stacked(data, title):
+    '''
+    Create stacked bar plot  
+
+    Args:
+        data ()
+        title (string)
+    Returns:
+        plot object  
+    '''
     palette_short = ['cornflowerblue','tomato','lightgrey']
     stacked_plot = data.T.plot(kind='bar', stacked=True, color=palette_short)
     stacked_plot.set_title(title)
@@ -31,6 +52,14 @@ def plot_stacked(data, title):
     return stacked_plot
 
 def count_res(df):
+    '''
+    Count each category of resonse and return dictionary 
+
+    Args:
+        df (dataframe)
+    Returns:
+        dictionary of response counts 
+    '''
     count_dict = {1: 0, 2: 0, 3: 0, 4: 0, 8: 0}
     for idx, row in df.iterrows():
         for col in df.columns:
