@@ -25,9 +25,6 @@ I use likert scale ratings of issue importance to predict an individual's 2016 v
 * SMOTE (Synthetic Minority Oversampling Technique)
 * weightedcalcs
 
-## Project Description
-
-
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
@@ -46,11 +43,6 @@ I use likert scale ratings of issue importance to predict an individual's 2016 v
 
  6. Repo for Flask web app can be found [here](https://github.com/ali0003433/pred-by-issue-app)
 
-
-## Deliverables
-* [Web app](https://make-prediction.herokuapp.com/)
-* [Slide deck](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/pred-deck.pdf)
-
 ## Process 
 Cross-Industry Standard Process for Data Mining (CRISP-DM)
 - Business understanding: Research political campaign data and predictive election models. 
@@ -59,6 +51,10 @@ Cross-Industry Standard Process for Data Mining (CRISP-DM)
 - Modeling: Compare Random Forest, Logistic Regression, Support Vector Machines, K-Nearest Neighbors. 
 - Evaluation: Create custom metric and evaluate multiple models with those metrics, iteratively. Use grid search and cross validation to tune parameters. 
 - Deployment: Deploy web app to heroku using Python, Flask, HTML/CSS. 
+
+## Deliverables
+* [Web app](https://make-prediction.herokuapp.com/)
+* [Slide deck](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/pred-deck.pdf)
 
 ## Contact
 * Alyssa Liguori, Alyssa.Liguori@protonmail.com 
