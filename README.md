@@ -7,7 +7,7 @@ This project uses voters' prioritization of political issues to predict their 20
 I use likert scale ratings of issue importance to predict an individual's 2016 vote. The data comes from a bipartisan foundation, the Democracy Fund, and uses complex survey design to represent the U.S. registered voter population. 
 
 ## App GIF
-!![](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/app.gif)
+![](https://github.com/ali0003433/predict-by-issue-prioritization/blob/master/reports/app.gif)
 
 
 ### Technologies/Libraries
