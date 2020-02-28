@@ -1,7 +1,7 @@
 # Employing issue prioritization to predict voting behavior
 This project uses voters' prioritization of political issues to predict their 2016 Presidential vote choice. 
 
-#### -- Project Status: Active
+#### -- Project Status: Completed
 
 ## Project Overview
 I use likert scale ratings of issue importance to predict an individual's 2016 vote. The data comes from a bipartisan foundation, the Democracy Fund, and uses complex survey design to represent the U.S. registered voter population. 
